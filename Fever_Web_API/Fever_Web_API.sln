@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fever_Web_API", "Fever_Web_API\Fever_Web_API.csproj", "{A40C0C39-1B16-41EF-BD77-46380D60F429}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fever_Web_API.Test", "Fever_Web_API.Test\Fever_Web_API.Test.csproj", "{0D3451CE-F33B-47AE-B758-50E8586A7F05}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{AE16126C-7867-4BA7-A8DD-6A7C464BA536}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A40C0C39-1B16-41EF-BD77-46380D60F429}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A40C0C39-1B16-41EF-BD77-46380D60F429}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A40C0C39-1B16-41EF-BD77-46380D60F429}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A40C0C39-1B16-41EF-BD77-46380D60F429}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D3451CE-F33B-47AE-B758-50E8586A7F05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D3451CE-F33B-47AE-B758-50E8586A7F05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D3451CE-F33B-47AE-B758-50E8586A7F05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D3451CE-F33B-47AE-B758-50E8586A7F05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
